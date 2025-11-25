@@ -26,11 +26,11 @@ const UPDATE_BATCH_SIZE: u64 = 1024 * 1024;
 #[command(author, version, about, long_about = None)]
 struct Args {
     /// Number of parallel streams per server
-    #[arg(short, long, default_value_t = 8)]
+    #[arg(short, long, default_value_t = 4)]
     streams: usize,
 
     /// Number of servers to test against
-    #[arg(short, long, default_value_t = 4)]
+    #[arg(short, long, default_value_t = 8)]
     count: usize,
 
     /// Download chunk size in MB (Increase this for higher speeds)

@@ -59,7 +59,7 @@ To consistently find the lowest-latency servers (which is critical for 10Gbps th
 
 ## Results
 
-I used the following configuration to reach __7.99__ Gbps on a residential 10Gbps 10G-EPON connection. This effectively saturates the physical limit of both XGS-PON and 10G-EPON standards after protocol overhead.
+I used the following configuration to reach __8.01__ Gbps on a residential 10Gbps 10G-EPON connection. This effectively saturates the physical limit of both XGS-PON and 10G-EPON standards after protocol overhead.
 
 `cargo run --release -- --streams 4 --count 8`
 
